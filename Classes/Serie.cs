@@ -1,7 +1,17 @@
+using System.Runtime.CompilerServices;
+using System.Globalization;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Reflection.Metadata;
+using System.Net.Http.Headers;
+using System.Collections.Concurrent;
+using System.Runtime.Serialization;
+using System.Reflection.Emit;
+using System.Data;
 using System;
 
 
-namespace Dio.Series.Classes
+namespace Dio.Series
 {
     public class Serie : EntidadeBase
     {
@@ -10,6 +20,7 @@ namespace Dio.Series.Classes
         private string Titulo { get; set;}
         private string Descricao { get; set;}
         private int Ano { get; set;}
+        private bool Excluido {get; set;}
 
         //Metodos
         public Serie(int ID, Genero genero, string titulo, string descricao, int ano)
@@ -19,6 +30,7 @@ namespace Dio.Series.Classes
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
         }
         public override string ToString()
         {
@@ -36,6 +48,10 @@ namespace Dio.Series.Classes
         public int retornaId()
         {
             return this.Id;
+        }
+        public void Excluir()
+        {
+            this.Excluido = true;
         }
     }
 }

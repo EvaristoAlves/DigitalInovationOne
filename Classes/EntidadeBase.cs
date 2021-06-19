@@ -1,5 +1,5 @@
 using System;
-namespace Dio.Series.Classes
+namespace Dio.Series
 {
     public abstract class EntidadeBase
     {
