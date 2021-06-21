@@ -1,5 +1,5 @@
 using System;
-namespace Dio.Serie
+namespace Dio.Series
 {
     public enum Genero
     {

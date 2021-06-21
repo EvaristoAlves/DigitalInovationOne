@@ -1,15 +1,4 @@
-using System.Runtime.CompilerServices;
-using System.Globalization;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Reflection.Metadata;
-using System.Net.Http.Headers;
-using System.Collections.Concurrent;
-using System.Runtime.Serialization;
-using System.Reflection.Emit;
-using System.Data;
 using System;
-
 
 namespace Dio.Series
 {
@@ -23,7 +12,7 @@ namespace Dio.Series
         private bool Excluido {get; set;}
 
         //Metodos
-        public Serie(int ID, Genero genero, string titulo, string descricao, int ano)
+        public Serie(int id, Genero genero, string titulo, string descricao, int ano)
         {
             this.Id = id;
             this.Genero = genero;
@@ -35,10 +24,11 @@ namespace Dio.Series
         public override string ToString()
         {
             string retorno = " ";
-            retorno += "Genero: " + this.Genero + Environment.NewLine;
+            retorno += "Gênero: " + this.Genero + Environment.NewLine;
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
-            retorno += "Descricao: " + this.Descricao + Environment.NewLine;
-            retorno += "Ano: " + this.Ano;
+            retorno += "Descrição: " + this.Descricao + Environment.NewLine;
+            retorno += "Ano de início: " + this.Ano;
+            retorno += "Excluido: " + this.Excluido;
             return retorno;
         }
         public string retornaTitulo()
@@ -48,6 +38,10 @@ namespace Dio.Series
         public int retornaId()
         {
             return this.Id;
+        }
+        public bool retornaExcluido()
+        {
+            return this.Excluido;
         }
         public void Excluir()
         {
