@@ -67,7 +67,7 @@ namespace Dio.Series
             
            foreach (int i in Enum.GetValues(typeof(Genero)))
            {
-               Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i))
+               Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genero), i));
            }
                Console.WriteLine("Digite o gênero entre as opções: ");
                int entradaGenero = int.Parse(Console.ReadLine());
@@ -120,7 +120,7 @@ namespace Dio.Series
             int entradaGenero = int.Parse(Console.ReadLine());
 
             Console.Write("Digite um Título da série: ");
-            string entradaTitulo = Console.ReadLine("");
+            string entradaTitulo = Console.ReadLine();
 
             Console.Write("Digite o Ano de lançamento da série: ");
             int entradaAno = int.Parse(Console.ReadLine());
