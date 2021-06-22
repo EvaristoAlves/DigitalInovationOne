@@ -1,0 +1,5 @@
+C:\Users\evari\OneDrive\Área de Trabalho\EVARISTO\DigitalInoveitionOne\net_fundamentos\Bank\DioBank\obj\Debug\net5.0\DioBank.csproj.AssemblyReference.cache
+C:\Users\evari\OneDrive\Área de Trabalho\EVARISTO\DigitalInoveitionOne\net_fundamentos\Bank\DioBank\obj\Debug\net5.0\DioBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evari\OneDrive\Área de Trabalho\EVARISTO\DigitalInoveitionOne\net_fundamentos\Bank\DioBank\obj\Debug\net5.0\DioBank.AssemblyInfoInputs.cache
+C:\Users\evari\OneDrive\Área de Trabalho\EVARISTO\DigitalInoveitionOne\net_fundamentos\Bank\DioBank\obj\Debug\net5.0\DioBank.AssemblyInfo.cs
+C:\Users\evari\OneDrive\Área de Trabalho\EVARISTO\DigitalInoveitionOne\net_fundamentos\Bank\DioBank\obj\Debug\net5.0\DioBank.csproj.CoreCompileInputs.cache
